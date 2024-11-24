@@ -15,7 +15,7 @@ export function Hero() {
         <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-4 md:mb-6 max-w-4xl mx-auto">
           <span >Transform</span> your{" "}
           Experience
-          <br className="hidden md:block" /> with <span className="gradient-text">AI Innovation</span> 
+          <br className="hidden md:block" /> with <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#2c9770] to-[#76a2a5]">AI Innovation</span> 
         </h1>
 
         <p className="text-gray-400 text-base md:text-lg lg:text-xl mb-8 md:mb-12 max-w-2xl mx-auto">
@@ -25,8 +25,8 @@ export function Hero() {
         <div className="max-w-xl mx-auto">
           <input 
             type="text"
-            placeholder="Enter your email to get started..."
-            className="w-full h-10 md:h-12 px-4 bg-gray-800/50 border border-white text-white placeholder-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-[#60efff] focus:border-transparent transition-all"
+            placeholder="Seach Here..."
+            className="w-full h-10 md:h-12 px-6 bg-gray-800/50 border border-white text-white placeholder-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-[#60efff] focus:border-transparent transition-all"
           />
         </div>
       </div>
