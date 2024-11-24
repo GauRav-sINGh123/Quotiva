@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section className="pt-24 md:pt-32 pb-16 text-center px-4 relative overflow-hidden ">
+    <section className=" mt-10 md:mt-0 pt-24 md:pt-32 pb-16 text-center px-4 relative overflow-hidden ">
       <div className="absolute top-1/4 right-0 w-64 h-64 bg-gradient-to-br from-[#00ff87] to-[#60efff] rounded-full blur-3xl opacity-10 animate-pulse"></div>
       <div className="container mx-auto relative z-10">
         <div className="inline-flex items-center bg-gray-800/50 rounded-full px-3 py-1 md:px-4 md:py-2 mb-6 md:mb-8">
