@@ -1,4 +1,7 @@
-export function Hero() {
+import SearchForm from "./SearchForm";
+
+
+export default async function Hero({searchParams}:{searchParams:Promise<query?:string>}) {
   return (
     <section className=" mt-10 md:mt-0 pt-24 md:pt-32 pb-16 text-center px-4 relative overflow-hidden ">
       <div className="absolute top-1/4 right-0 w-64 h-64 bg-gradient-to-br from-[#00ff87] to-[#60efff] rounded-full blur-3xl opacity-10 animate-pulse"></div>
@@ -23,11 +26,7 @@ export function Hero() {
         </p>
 
         <div className="max-w-xl mx-auto">
-          <input 
-            type="text"
-            placeholder="Seach Here..."
-            className="w-full h-10 md:h-12 px-6 bg-gray-800/50 border border-white text-white placeholder-white rounded-3xl focus:outline-none focus:ring-2 focus:ring-[#60efff] focus:border-transparent transition-all"
-          />
+         <SearchForm/>
         </div>
       </div>
     </section>

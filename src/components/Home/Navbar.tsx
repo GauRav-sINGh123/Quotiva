@@ -5,7 +5,7 @@ import { auth, signIn, signOut } from "@/auth";
 
 export default async function Navbar() {
   const session = await auth()
-   
+   console.log(session)
   return (
     <nav className="fixed top-0 w-full z-50 bg-transparent backdrop-blur-sm">
       <div className="container mx-auto px-4 py-4">
